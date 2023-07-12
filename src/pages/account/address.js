@@ -25,11 +25,11 @@ const AddressPage = (props) => {
 
   const address2 = {
     name: 'John Doe',
-    address: '123 Steam Mill Lane, Haymerket',
+    address: '123 Steam Mill Lane',
     state: 'NSW',
     postal: '2000',
     country: 'Australia',
-    company: 'Matter Design',
+    company: 'Design',
   };
 
   const [addressList] = useState([address1, address2]);
